@@ -22,7 +22,7 @@ The board shows up as two USB devices: a FTDI serial port and a USBASP programme
 
 1. 5V (left): Provide 5 volts as power and logic levels to the target board.
 1. Float (middle): Adapt to whatever voltage the target board is using.
-1. 3.3V (right): Provide 3.3 voltes as power and logic levels to the target board.
+1. 3.3V (right): Provide 3.3 volts as power and logic levels to the target board.
 
 If your board provides voltage of its own make sure you keep VTARG in the middle position.
 
