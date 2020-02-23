@@ -1935,24 +1935,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="0" y="1.7091" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.7091" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOT95P282X145-5" urn="urn:adsk.eagle:footprint:10159341/1">
-<description>5-SOT23, 0.95 mm pitch, 2.83 mm span, 2.96 X 1.60 X 1.45 mm body
-&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.83 mm span with body size 2.96 X 1.60 X 1.45 mm&lt;/p&gt;</description>
-<circle x="-1.3544" y="1.7486" radius="0.25" width="0" layer="21"/>
-<wire x1="-0.85" y1="1.5586" x2="0.85" y2="1.5586" width="0.12" layer="21"/>
-<wire x1="-0.85" y1="-1.5586" x2="0.85" y2="-1.5586" width="0.12" layer="21"/>
-<wire x1="0.85" y1="-1.55" x2="-0.85" y2="-1.55" width="0.12" layer="51"/>
-<wire x1="-0.85" y1="-1.55" x2="-0.85" y2="1.55" width="0.12" layer="51"/>
-<wire x1="-0.85" y1="1.55" x2="0.85" y2="1.55" width="0.12" layer="51"/>
-<wire x1="0.85" y1="1.55" x2="0.85" y2="-1.55" width="0.12" layer="51"/>
-<smd name="1" x="-1.264" y="0.95" dx="1.1893" dy="0.5891" layer="1"/>
-<smd name="2" x="-1.264" y="0" dx="1.1893" dy="0.5891" layer="1"/>
-<smd name="3" x="-1.264" y="-0.95" dx="1.1893" dy="0.5891" layer="1"/>
-<smd name="4" x="1.264" y="-0.95" dx="1.1893" dy="0.5891" layer="1"/>
-<smd name="5" x="1.264" y="0.95" dx="1.1893" dy="0.5891" layer="1"/>
-<text x="0" y="2.6336" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.1936" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 <package name="USBC_UJ31-CH-G2-SMT-TR">
 <smd name="A6" x="-0.25" y="-0.35" dx="0.35" dy="0.7" layer="1"/>
 <smd name="A7" x="0.25" y="-0.35" dx="0.35" dy="0.7" layer="1"/>
@@ -2199,6 +2181,25 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-3.68" y1="-2.01" x2="-4.33" y2="-2.01" width="1.1" layer="30"/>
 <wire x1="-4.33" y1="-2.01" x2="-4.33" y2="-2.51" width="1.1" layer="29"/>
 <wire x1="-4.88" y1="-10.61" x2="4.88" y2="-10.61" width="0.127" layer="21" style="shortdash"/>
+</package>
+<package name="SOT95P280X145-6" urn="urn:adsk.eagle:footprint:11174180/1">
+<description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.45 mm body
+&lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.45 mm&lt;/p&gt;</description>
+<circle x="-1.379" y="1.7459" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.875" y1="1.5559" x2="0.875" y2="1.5559" width="0.12" layer="21"/>
+<wire x1="-0.875" y1="-1.5559" x2="0.875" y2="-1.5559" width="0.12" layer="21"/>
+<wire x1="0.875" y1="-1.525" x2="-0.875" y2="-1.525" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="-1.525" x2="-0.875" y2="1.525" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="1.525" x2="0.875" y2="1.525" width="0.12" layer="51"/>
+<wire x1="0.875" y1="1.525" x2="0.875" y2="-1.525" width="0.12" layer="51"/>
+<smd name="1" x="-1.2533" y="0.95" dx="1.2088" dy="0.5839" layer="1"/>
+<smd name="2" x="-1.2533" y="0" dx="1.2088" dy="0.5839" layer="1"/>
+<smd name="3" x="-1.2533" y="-0.95" dx="1.2088" dy="0.5839" layer="1"/>
+<smd name="4" x="1.2533" y="-0.95" dx="1.2088" dy="0.5839" layer="1"/>
+<smd name="5" x="1.2533" y="0" dx="1.2088" dy="0.5839" layer="1"/>
+<smd name="6" x="1.2533" y="0.95" dx="1.2088" dy="0.5839" layer="1"/>
+<text x="0" y="2.6309" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.1909" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -2831,13 +2832,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <packageinstance name="FUSC2113X120N"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P282X145-5" urn="urn:adsk.eagle:package:10159336/1" type="model">
-<description>5-SOT23, 0.95 mm pitch, 2.83 mm span, 2.96 X 1.60 X 1.45 mm body
-&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.83 mm span with body size 2.96 X 1.60 X 1.45 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOT95P282X145-5"/>
-</packageinstances>
-</package3d>
 <package3d name="SOP65P640X110-16N" urn="urn:adsk.eagle:package:14274501/1" type="model">
 <description>16-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.10 mm body
 &lt;p&gt;16-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.10 mm&lt;/p&gt;</description>
@@ -2857,6 +2851,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 &lt;p&gt;6-pin SOTFL package with 0.50 mm pitch, 1.60 mm span with body size 1.60 X 1.20 X 0.60 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOTFL50P160X60-6N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P280X145-6" urn="urn:adsk.eagle:package:11174177/1" type="model">
+<description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.45 mm body
+&lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P280X145-6"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3079,18 +3080,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-2.032" y1="-1.778" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="-0.762" y1="-1.778" x2="2.032" y2="1.524" width="0.254" layer="94"/>
 </symbol>
-<symbol name="ESDS314">
-<pin name="IO1" x="-10.16" y="2.54" length="middle"/>
-<pin name="IO2" x="-10.16" y="0" length="middle"/>
-<pin name="IO3" x="-10.16" y="-2.54" length="middle"/>
-<pin name="IO4" x="-10.16" y="-5.08" length="middle"/>
-<pin name="GND" x="2.54" y="-12.7" length="middle" direction="pwr" rot="R90"/>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<text x="-4.826" y="6.096" size="1.27" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="NOR">
 <wire x1="-1.27" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="-1.27" y1="-5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
@@ -3270,6 +3259,19 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <vertex x="-1.016" y="0.762"/>
 <vertex x="-1.016" y="-0.762"/>
 </polygon>
+</symbol>
+<symbol name="D5V0F4U6SO">
+<pin name="CH1" x="-12.7" y="5.08" length="middle"/>
+<pin name="CH2" x="-12.7" y="2.54" length="middle"/>
+<pin name="CH4" x="-12.7" y="-2.54" length="middle"/>
+<pin name="CH3" x="-12.7" y="0" length="middle"/>
+<pin name="VDD" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="2.54" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4586,28 +4588,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESDS314" prefix="U">
-<gates>
-<gate name="G$1" symbol="ESDS314" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="SOT95P282X145-5">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IO1" pad="1"/>
-<connect gate="G$1" pin="IO2" pad="3"/>
-<connect gate="G$1" pin="IO3" pad="4"/>
-<connect gate="G$1" pin="IO4" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10159336/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="USBC_FEMALE" prefix="CONN">
 <gates>
 <gate name="G$1" symbol="USBC_FEMALE" x="0" y="0"/>
@@ -4783,6 +4763,29 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15011070/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="D5V0F4U6SO" prefix="U">
+<gates>
+<gate name="G$1" symbol="D5V0F4U6SO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-6">
+<connects>
+<connect gate="G$1" pin="CH1" pad="1"/>
+<connect gate="G$1" pin="CH2" pad="3"/>
+<connect gate="G$1" pin="CH3" pad="4"/>
+<connect gate="G$1" pin="CH4" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11174177/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -14426,7 +14429,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="R4" library="pepin" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="10k"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="F1" library="pepin" deviceset="PTC" device="0805" package3d_urn="urn:adsk.eagle:package:14088533/1" value="MF-PSHT035KX-2"/>
-<part name="U1" library="pepin" deviceset="ESDS314" device="" package3d_urn="urn:adsk.eagle:package:10159336/1"/>
 <part name="AGND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="USB" library="pepin" deviceset="USBC_FEMALE" device="UJ31-CH-G2-SMT-TR"/>
@@ -14468,6 +14470,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="5.1k"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="5.1k"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1k"/>
+<part name="U1" library="pepin" deviceset="D5V0F4U6SO" device="" package3d_urn="urn:adsk.eagle:package:11174177/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14678,11 +14681,8 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="NAME" x="387.35" y="47.2186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="382.27" y="55.118" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U1" gate="G$1" x="403.86" y="35.56" smashed="yes" rot="R270" grouprefs="IO">
-<attribute name="NAME" x="409.956" y="42.926" size="1.27" layer="95" rot="R270"/>
-</instance>
-<instance part="AGND2" gate="VR1" x="391.16" y="27.94" smashed="yes" grouprefs="IO">
-<attribute name="VALUE" x="393.7" y="25.4" size="1.778" layer="96" rot="R180"/>
+<instance part="AGND2" gate="VR1" x="403.86" y="15.24" smashed="yes" grouprefs="IO">
+<attribute name="VALUE" x="401.32" y="15.24" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND10" gate="1" x="388.62" y="78.74" smashed="yes" grouprefs="IO">
 <attribute name="VALUE" x="386.08" y="76.2" size="1.778" layer="96"/>
@@ -14842,6 +14842,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <instance part="R18" gate="G$1" x="76.2" y="139.7" smashed="yes">
 <attribute name="NAME" x="72.39" y="141.1986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="141.224" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$1" x="401.32" y="33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="393.7" y="40.64" size="1.778" layer="95" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -15011,13 +15014,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="414.02" y1="48.26" x2="414.02" y2="76.2" width="0.1524" layer="91" grouprefs="IO"/>
 <wire x1="414.02" y1="76.2" x2="436.88" y2="76.2" width="0.1524" layer="91" grouprefs="IO"/>
 <junction x="436.88" y="76.2" grouprefs="IO"/>
-<wire x1="414.02" y1="48.26" x2="406.4" y2="48.26" width="0.1524" layer="91" grouprefs="IO"/>
 <junction x="414.02" y="48.26" grouprefs="IO"/>
-<pinref part="U1" gate="G$1" pin="IO1"/>
-<wire x1="406.4" y1="48.26" x2="391.16" y2="48.26" width="0.1524" layer="91" grouprefs="IO"/>
-<wire x1="406.4" y1="45.72" x2="406.4" y2="48.26" width="0.1524" layer="91" grouprefs="IO"/>
-<junction x="406.4" y="48.26" grouprefs="IO"/>
+<wire x1="414.02" y1="48.26" x2="406.4" y2="48.26" width="0.1524" layer="91" grouprefs="IO"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="406.4" y1="48.26" x2="391.16" y2="48.26" width="0.1524" layer="91" grouprefs="IO"/>
 <wire x1="391.16" y1="45.72" x2="391.16" y2="48.26" width="0.1524" layer="91" grouprefs="IO"/>
 <wire x1="414.02" y1="76.2" x2="414.02" y2="78.74" width="0.1524" layer="91" grouprefs="IO"/>
 <junction x="414.02" y="76.2" grouprefs="IO"/>
@@ -15027,6 +15027,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="421.64" y1="12.7" x2="414.02" y2="12.7" width="0.1524" layer="91" grouprefs="IO"/>
 <wire x1="414.02" y1="12.7" x2="414.02" y2="17.78" width="0.1524" layer="91" grouprefs="IO"/>
 <junction x="414.02" y="17.78" grouprefs="IO"/>
+<pinref part="U1" gate="G$1" pin="CH1"/>
+<wire x1="406.4" y1="45.72" x2="406.4" y2="48.26" width="0.1524" layer="91"/>
+<junction x="406.4" y="48.26"/>
 </segment>
 <segment>
 <pinref part="PGM" gate="G$1" pin="1"/>
@@ -15693,9 +15696,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </net>
 <net name="AGND" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="AGND2" gate="VR1" pin="AGND"/>
-<wire x1="391.16" y1="33.02" x2="391.16" y2="30.48" width="0.1524" layer="91" grouprefs="IO"/>
+<wire x1="403.86" y1="20.32" x2="403.86" y2="17.78" width="0.1524" layer="91" grouprefs="IO"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="USB" gate="G$1" pin="SHLD"/>
@@ -15724,13 +15727,13 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="421.64" y1="55.88" x2="421.64" y2="68.58" width="0.1524" layer="91" grouprefs="IO"/>
 <wire x1="452.12" y1="66.04" x2="452.12" y2="68.58" width="0.1524" layer="91" grouprefs="IO"/>
 <wire x1="421.64" y1="68.58" x2="452.12" y2="68.58" width="0.1524" layer="91" grouprefs="IO"/>
-<wire x1="421.64" y1="55.88" x2="398.78" y2="55.88" width="0.1524" layer="91" grouprefs="IO"/>
+<wire x1="421.64" y1="55.88" x2="401.32" y2="55.88" width="0.1524" layer="91" grouprefs="IO"/>
 <junction x="421.64" y="55.88" grouprefs="IO"/>
-<pinref part="U1" gate="G$1" pin="IO4"/>
-<wire x1="398.78" y1="45.72" x2="398.78" y2="55.88" width="0.1524" layer="91" grouprefs="IO"/>
-<junction x="398.78" y="55.88" grouprefs="IO"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="396.24" y1="55.88" x2="398.78" y2="55.88" width="0.1524" layer="91" grouprefs="IO"/>
+<pinref part="U1" gate="G$1" pin="CH3"/>
+<wire x1="401.32" y1="55.88" x2="396.24" y2="55.88" width="0.1524" layer="91" grouprefs="IO"/>
+<wire x1="401.32" y1="45.72" x2="401.32" y2="55.88" width="0.1524" layer="91"/>
+<junction x="401.32" y="55.88"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -15743,13 +15746,13 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="419.1" y1="22.86" x2="419.1" y2="53.34" width="0.1524" layer="91" grouprefs="IO"/>
 <wire x1="419.1" y1="53.34" x2="419.1" y2="71.12" width="0.1524" layer="91" grouprefs="IO"/>
 <wire x1="419.1" y1="71.12" x2="449.58" y2="71.12" width="0.1524" layer="91" grouprefs="IO"/>
-<wire x1="419.1" y1="53.34" x2="401.32" y2="53.34" width="0.1524" layer="91" grouprefs="IO"/>
+<wire x1="419.1" y1="53.34" x2="403.86" y2="53.34" width="0.1524" layer="91" grouprefs="IO"/>
 <junction x="419.1" y="53.34" grouprefs="IO"/>
-<pinref part="U1" gate="G$1" pin="IO3"/>
-<wire x1="401.32" y1="45.72" x2="401.32" y2="53.34" width="0.1524" layer="91" grouprefs="IO"/>
-<junction x="401.32" y="53.34" grouprefs="IO"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="396.24" y1="53.34" x2="401.32" y2="53.34" width="0.1524" layer="91" grouprefs="IO"/>
+<pinref part="U1" gate="G$1" pin="CH2"/>
+<wire x1="403.86" y1="53.34" x2="396.24" y2="53.34" width="0.1524" layer="91" grouprefs="IO"/>
+<wire x1="403.86" y1="45.72" x2="403.86" y2="53.34" width="0.1524" layer="91"/>
+<junction x="403.86" y="53.34"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -15770,13 +15773,15 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="457.2" y1="73.66" x2="457.2" y2="66.04" width="0.1524" layer="91" grouprefs="IO"/>
 <wire x1="416.56" y1="73.66" x2="444.5" y2="73.66" width="0.1524" layer="91" grouprefs="IO"/>
 <junction x="444.5" y="73.66" grouprefs="IO"/>
-<wire x1="416.56" y1="50.8" x2="403.86" y2="50.8" width="0.1524" layer="91" grouprefs="IO"/>
+<wire x1="416.56" y1="50.8" x2="411.48" y2="50.8" width="0.1524" layer="91" grouprefs="IO"/>
 <junction x="416.56" y="50.8" grouprefs="IO"/>
-<pinref part="U1" gate="G$1" pin="IO2"/>
-<wire x1="403.86" y1="50.8" x2="396.24" y2="50.8" width="0.1524" layer="91" grouprefs="IO"/>
-<wire x1="403.86" y1="45.72" x2="403.86" y2="50.8" width="0.1524" layer="91" grouprefs="IO"/>
-<junction x="403.86" y="50.8" grouprefs="IO"/>
 <pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="VDD"/>
+<wire x1="411.48" y1="50.8" x2="396.24" y2="50.8" width="0.1524" layer="91" grouprefs="IO"/>
+<wire x1="406.4" y1="20.32" x2="406.4" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="17.78" x2="411.48" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="17.78" x2="411.48" y2="50.8" width="0.1524" layer="91"/>
+<junction x="411.48" y="50.8"/>
 </segment>
 </net>
 <net name="N$15" class="0">
