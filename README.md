@@ -1,5 +1,5 @@
 # AVR Programmer
-Eagle files and gerbers for a programmer designed for Microchip's series of AVR microcontrollers.
+Eagle files and gerbers for a programmer designed for Microchip's series of AVR microcontrollers. There is also a KiCad variant in the kicad directory, but I haven't tried it yet.  It was ported from Eagle and I re-routed the board.
 
 ![Board Image](board.jpg)
 
